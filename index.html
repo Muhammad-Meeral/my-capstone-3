@@ -1,0 +1,1527 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Cartzilla
+    </title>
+ <!-- PNG favicon -->
+<link rel="icon" type="image/png" href="/images/e-commerce-solutions-1000x1000.webp" sizes="32x32">
+
+<!-- .ico fallback for older browsers -->
+
+
+    <link rel="icon" type="image/webp" href="/images/e-commerce-solutions-1000x1000.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <header class="bg-dark text-white d-flex align-items-center justify-content-between p-4">
+        <div class="d-flex align-items-center gap-4">
+            <div class="d-flex align-items-center">
+                <img alt="Cartzilla logo" class="me-2" src="./images/Capture-logo.PNG" />
+            </div>
+        </div>
+        <div class="flex-grow-1 mx-4">
+            <div class="position-relative d-flex justify-content-center"> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="56" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg> <input   class="form-control w-75 bg-secondary text-white border-0 rounded-pill"
+                    placeholder="Search the products" type="text" />
+                <i class="position-absolute top-50 start-50 translate-middle text-secondary">
+                </i>
+            </div>
+        </div>
+        <div class="d-flex align-items-center gap-5">
+            <div class="d-flex align-items-center gap-3  px-3 py-2">
+                <i class="fa-solid fa-percent text-danger ">
+                </i>
+                <div>
+                    <span class="small text-white">
+                        Only this month
+                    </span>
+                    <span class="d-block fs-6 fw-bold">
+                        Super Sale 20%
+                    </span>
+                </div>
+            </div>
+            <i class="fa-regular fa-sun text-secondary">
+            </i>
+            <a  href="./log-in/log-in.html" class="fa-regular fa-user text-secondary" >
+            </a>
+            <i class="fa-regular fa-heart text-secondary">
+            </i>
+            <div class="position-relative">
+                <i class="fas fa-shopping-cart text-secondary">
+                </i>
+                <span
+                    class="position-absolute top-0 start-100 translate-middle bg-success rounded-circle text-white d-flex align-items-center justify-content-center"
+                    style="width: 20px; height: 20px;">
+                    3
+                </span>
+            </div>
+        </div>
+    </header>
+    <nav class="d-flex align-items-center justify-content-between px-4 py-2 bg-dark">
+        <div class="d-flex align-items-center gap-4 ">
+            <div class="position-relative">
+                <li class="nav-item dropdown mb-4">
+                    <a class="nav-link dropdown-toggle text-white ms-5 ps-5 fs-5 fw-bold" href="#" role="button">
+                        Categories
+                    </a>
+                </li>
+            </div>
+            <a class="text-white ms-5 ps-5">
+                Home
+                <i class="fas fa-chevron-down">
+                </i>
+            </a>
+            <a class="text-white" href="#">
+                Shop
+                <i class="fas fa-chevron-down">
+                </i>
+            </a>
+            <a class="text-white" href="#">
+                Account
+                <i class="fas fa-chevron-down">
+                </i>
+            </a>
+            <a class="text-white" href="#">
+                Pages
+                <i class="fas fa-chevron-down">
+                </i>
+            </a>
+            <a class="text-white" href="#">
+                Docs
+            </a>
+            <a class="text-white" href="#">
+                Components
+            </a>
+        </div>
+        <div class="d-flex align-items-center gap-4">
+            <div class="position-relative">
+                <button class="btn btn-dark d-flex align-items-center">
+                    <span>
+                        Eng
+                    </span>
+                    <i class="fas fa-chevron-down ms-2">
+                    </i>
+                </button>
+            </div>
+            <div class="position-relative">
+                <button class="btn btn-dark d-flex align-items-center">
+                    <span>
+                        USD ($)
+                    </span>
+
+                    <i class="fas fa-chevron-down ms-2">
+                    </i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home Section -->
+    <div class="d-flex">
+        <div class="col-3 bg-white p-4 ms-5 shadow-lg">
+            <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fa fa-desktop me-2"></i>
+                    <span>Computers & Accessories</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-mobile-alt me-2"></i>
+                    <span>Smartphones & Tablets</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-tv me-2"></i>
+                    <span>TV, Video & Audio</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-music me-2"></i>
+                    <span>Speakers & Home Music</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-camera me-2"></i>
+                    <span>Cameras, Photo & Video</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-print me-2"></i>
+                    <span>Printers & Ink</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-charging-station me-2"></i>
+                    <span>Charging Stations</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-headphones-alt me-2"></i>
+                    <span>Headphones</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-watch me-2"></i>
+                    <span>Wearable Electronics</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-battery-full me-2"></i>
+                    <span>Powerbanks</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-hdd me-2"></i>
+                    <span>HDD/SSD Data Storage</span>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                    <i class="fas fa-gamepad me-2"></i>
+                    <span>Video Games</span>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- here is add carousel -->
+    </div>
+
+    <section class="container pt-5 mt-1 mt-sm-3 mt-lg-4">
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="d-flex flex-column flex-xxl-row align-items-center">
+                    <div class="d-flex text-dark-emphasis bg-body-tertiary rounded-circle p-4 mb-3 mb-xxl-0">
+                        <i class="fas fa-truck fs-2 m-xxl-1"></i>
+                    </div>
+                    <div class="text-center text-xxl-start ps-xxl-3">
+                        <h3 class="h6 mb-1">Free Shipping &amp; Returns</h3>
+                        <p class="fs-sm mb-0">For all orders over $199.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="d-flex flex-column flex-xxl-row align-items-center">
+                    <div class="d-flex text-dark-emphasis bg-body-tertiary rounded-circle p-4 mb-3 mb-xxl-0">
+                        <i class="fas fa-credit-card fs-2 m-xxl-1"></i>
+                    </div>
+                    <div class="text-center text-xxl-start ps-xxl-3">
+                        <h3 class="h6 mb-1">Secure Payment</h3>
+                        <p class="fs-sm mb-0">We ensure secure payment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="d-flex flex-column flex-xxl-row align-items-center">
+                    <div class="d-flex text-dark-emphasis bg-body-tertiary rounded-circle p-4 mb-3 mb-xxl-0">
+                        <i class="fas fa-sync fs-2 m-xxl-1"></i>
+                    </div>
+                    <div class="text-center text-xxl-start ps-xxl-3">
+                        <h3 class="h6 mb-1">Money Back Guarantee</h3>
+                        <p class="fs-sm mb-0">Returning money 30 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="d-flex flex-column flex-xxl-row align-items-center">
+                    <div class="d-flex text-dark-emphasis bg-body-tertiary rounded-circle p-4 mb-3 mb-xxl-0">
+                        <i class="fas fa-headset fs-2 m-xxl-1"></i>
+                    </div>
+                    <div class="text-center text-xxl-start ps-xxl-3">
+                        <h3 class="h6 mb-1">24/7 Customer Support</h3>
+                        <p class="fs-sm mb-0">Friendly customer support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- New Arrival -->
+    <section class="container pt-5 mt-1 mt-sm-2 mt-md-3 mt-lg-4">
+        <h2 class="h3 pb-2 pb-sm-3">New arrivals</h2>
+        <div class="row">
+
+            <!-- Banner -->
+            <div class="col-lg-4" data-bs-theme="dark">
+                <div class="d-flex flex-column align-items-center justify-content-end w-100 h-100 text-center overflow-hidden rounded-5 px-4 px-lg-3 pt-4 pb-5"
+                    style="background: #1d2c41 url(./images/laptop.png) center/cover no-repeat">
+                    <div class="ratio animate-up-down position-relative  me-lg-4">
+                        <img src="..." alt="Laptop">
+                    </div>
+                    <h3 class="display-2 mb-2 text-white fw-semibold">MacBook</h3>
+                    <p class="text-body fw-medium mb-4">Be Pro Anywhere</p>
+                    <a class="btn btn-sm btn-danger" href="#!">
+                        From $1,199
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product list -->
+            <div class="col-sm-6 col-lg-4 d-flex flex-column gap-3 pt-4 py-lg-4">
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/03.png" alt="Smart Watch">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">45</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Smart Watch Series 7, White</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$449.00</div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/01 (1).png" width="110" alt="VR Glasses">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                                <i class="fa-solid fa-star  text-body-tertiary opacity-50"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">123</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">VRB01 Virtual Reality Glasses</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$340.99</div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/cartzilla1.png" width="110" alt="Bluetooth Headphones">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">34</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Wireless Bluetooth Headphones Sony</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$357.00</div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/cartzilla1 (1).png" width="110" alt="MacBook">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">34</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Laptop Apple MacBook Pro 13 M2</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$1,200.00</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex flex-column gap-3 pt-3 py-lg-4">
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/cartzilla1 (2).png" width="110" alt="iPad Pro">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">126</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Tablet Apple iPad Air M1</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$540.00</div>
+                    </div>
+                </div>
+
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/airports.png" width="110" alt="AirPods 2 Pro">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">340</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html"><span class="animate-target">Headphones
+                                    Apple AirPods 2 Pro</span></h6>
+                        </h4>
+                        <div class="h5 mb-0">$209.99 <del class="text-body-tertiary fs-sm fw-normal">$356.00</del></div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/cartzilla1 (3).png" width="110" alt="Power Bank">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">29</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Power Bank PBS 10000 mAh Black</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$49.99</div>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="position-relative animate-underline d-flex align-items-center ps-xl-3">
+                    <div class="ratio ratio-1x1 flex-shrink-0" style="width: 110px">
+                        <img src="./images/02.png" width="110" alt="iPhone 14">
+                    </div>
+                    <div class="w-100 min-w-0 ps-2 ps-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">12</span>
+                        </div>
+                        <h4 class="mb-2">
+                            <h6 class="stretched-link d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Apple iPhone 14 128GB White</span>
+                            </h6>
+                        </h4>
+                        <div class="h5 mb-0">$899.00 <del class="text-body-tertiary fs-sm fw-normal">$958.00</del></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trending Products -->
+    <section class="container pt-5 mt-2 mt-sm-3 mt-lg-4">
+        <div class="d-flex align-items-center justify-content-between border-bottom pb-3 pb-md-4">
+            <h2 class="h3 mb-0">Trending products</h2>
+            <div class="nav ms-3">
+                <a class="nav-link animate-underline px-0 py-2" href="shop-catalog-electronics.html">
+                    <h6 class="animate-target">View all</h6>
+                    <i class="ci-chevron-right fs-base ms-1"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 pt-4">
+
+            <!-- Item -->
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <span
+                                class="badge bg-danger position-absolute top-0 start-0 mt-2 ms-2 mt-lg-3 ms-lg-3">-21%</span>
+                            <img src="./images/01 (1).png" class="ratio" alt="VR Glasses">
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(123)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">VRB01 Virtual Reality Glasses</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$340.99 <del
+                                    class="text-body-tertiary fs-sm fw-normal">$430.00</del></div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute  start-25 w-25 bg-body rounded  p-3 ">
+                        <span class="position-absolute top-0 start-0 w-25  py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="mt-2">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">OLED 1440x1600</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Graphics:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Adreno 540</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Sound:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">2x3.5mm jack</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Input:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">4 built-in cameras</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 end-0  hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/02.png" class="ratio" alt="iPhone 14">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(142)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Apple iPhone 14 128GB White</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$899.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute start-25 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">6.1" XDR</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Capacity:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">128 GB</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">A15 Bionic</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Camera:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">12 + 12 MP</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">172 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/03.png" class="ratio" alt="Smart Watch">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(67)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Smart Watch Series 7, White</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$429.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute  start-75 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">45mm OLED</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">64-bit Dual-core</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Connectivity:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Wi-Fi, Bluetooth</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Power:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Lithium-ion battery</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">37.0 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <span
+                                class="badge bg-info position-absolute top-0 start-0 mt-2 ms-2 mt-lg-3 ms-lg-3">New</span>
+                            <div>
+                                <img src="./images/04.png" class="ratio" alt="MacBook">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(51)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Laptop Apple MacBook Pro 13 M2</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$1,200.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute  start-25 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Apple M2</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Memory:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">8 GB unified</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Storage:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">256 GB SSD</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">13.3-inch Retina</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="posittion-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/cartzilla1 (2).png" class="ratio" alt="iPad Air">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(12)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Tablet Apple iPad Air M1</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$540.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute  start-25 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">10.9" LED</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Capacity:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">64 GB</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Apple M1</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Camera:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">12 MP Wide</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">462 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="position-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/airports.png" class="ratio" alt="AirPods 2">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(78)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Headphones Apple AirPods 2 Pro</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$224.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute  start-25 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Audio:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Noise Cancellation</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Sensors:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Touch control</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Apple H2</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">50.8 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="posittion-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/Laapi.png" class="ratio" alt="iPad Pro">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(49)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Tablet Apple iPad Pro M1</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$739.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute start-25 w-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0 w-25 py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Display:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">11" LED</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Capacity:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">128 GB</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Chip:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Apple M1</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Camera:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">12 MP Wide</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">470 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                    <div class="posittion-relative">
+                        <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                            <div class="d-flex flex-column gap-2">
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                    aria-label="Add to Wishlist">
+                                    <i class="ci-heart fs-base animate-target"></i>
+                                </button>
+                                <button type="button"
+                                    class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                    aria-label="Compare">
+                                    <i class="ci-refresh-cw fs-base animate-target"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                            href="shop-product-general-electronics.html">
+                            <div>
+                                <img src="./images/cartzilla1.png" class="ratio" alt="Bluetooth Headphones">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="d-flex gap-1 fs-xs">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                                <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                            </div>
+                            <span class="text-body-tertiary fs-xs">(136)</span>
+                        </div>
+                        <h3 class="pb-1 mb-2">
+                            <h6 class="d-block fs-sm fw-medium text-truncate"
+                                href="shop-product-general-electronics.html">
+                                <span class="animate-target">Wireless Bluetooth Headphones Sony</span>
+                            </h6>
+                        </h3>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="h5 lh-1 mb-0">$299.00</div>
+                            <button type="button"
+                                class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                aria-label="Add to Cart">
+                                <i class="add-to-cart fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-details z-2 position-absolute start-25 bg-body rounded p-3">
+                        <span class="position-absolute top-0 start-0  bg-body py-2"></span>
+                        <ul class="list-unstyled d-flex flex-column gap-2 w-100">
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Audio:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Noise Cancellation</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Connectivity:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Bluetooth, 3.5mm jack</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Material:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">Leather, Plastic</span>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="fs-xs">Weight:</span>
+                                <span class="d-block flex-grow-1 border-bottom border-dashed px-1 mt-2 mx-2"></span>
+                                <span class="text-dark-emphasis fs-xs fw-medium text-end">185 grams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Banner -->
+    <section class="container pt-5 mt-sm-2 mt-md-3 mt-lg-4">
+        <div class="row g-0">
+            <div class="col-md-3 mb-n4 mb-md-0">
+                <div class="position-relative d-flex flex-column align-items-center justify-content-center h-100 py-5">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-none d-md-block">
+                        <span
+                            class="twenty-percante position-absolute top-0 start-0 w-100 h-100 rounded-5 d-none-dark"></span>
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded-5 d-none d-block-dark"></span>
+                    </div>
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-md-none">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 rounded-top-5 d-none-dark"></span>
+                        <span
+                            class="position-absolute top-0 start-0 w-100 h-100 rounded-top-5 d-none d-block-dark"></span>
+                    </div>
+                    <div class="position-relative z-1 display-1 text-dark-emphasis text-nowrap mb-0">
+                        20
+                        <span class="d-inline-block ms-n2">
+                            <span class="d-block fs-1">%</span>
+                            <span class="d-block fs-5">OFF</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 position-relative">
+                <div class="position-absolute top-0 start-0 h-100 overflow-hidden rounded-pill z-2 d-none d-md-block">
+                    <svg width="4" height="436" viewBox="0 0 4 436" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 0L1.99998 436" stroke="currentColor" stroke-width="3" stroke-dasharray="8 12"
+                            stroke-linecap="round"></path>
+                    </svg>
+                </div>
+                <div class="handi-came position-relative rounded-5">
+                    <span class="position-absolute top-0 start-0 w-100 h-100   d-none-dark rtl-flip"></span>
+                    <span class="position-absolute top-0 start-0 w-100 h-100  d-none d-block-dark rtl-flip"></span>
+                    <div class="row align-items-center position-relative z-2">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <div class="text-center text-md-start py-md-5 px-4 ps-md-5 pe-md-0 me-md-n5">
+                                <h3 class="text-uppercase fw-bold ps-xxl-3 pb-2 mb-1">Seasonal weekly sale 2024</h3>
+                                <p class="text-body-emphasis ps-xxl-3 mb-0">Use code <span
+                                        class="d-inline-block fw-semibold bg-white text-dark rounded-pill py-1 px-2">Sale
+                                        2024</span> to get best offer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center justify-content-md-end pb-5 pb-md-0">
+                            <div class="me-xxl-4">
+                                <img src="./images/handicame.png" class="d-block rtl-flip" width="420" alt="Camera">
+                                <div class="d-none d-lg-block" style="margin-bottom: -9%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-lg-block" style="padding-bottom: 3%"></div>
+    </section>
+
+
+    <section class="container pt-5 mt-2 mt-sm-3 mt-lg-4">
+
+        <!-- Heading + Countdown -->
+        <div class="d-flex align-items-start align-items-md-center justify-content-between border-bottom pb-3 pb-md-4">
+            <div class="d-md-flex align-items-center">
+                <h2 class="h3 pe-3 me-3 mb-md-0">Special offers for you</h2>
+
+                <!-- Replace "demoDate" inside data-countdown-date attribute with the real date, ex: "10/15/2025 12:00:00" -->
+                <div class="d-flex align-items-center" data-countdown-date="demoDate">
+                    <div class="btn btn-danger pe-none px-2">
+                        <span data-days=""></span>
+                        <span>12d</span>
+                    </div>
+                    <div class="animate-blinking  fs-lg fw-medium mx-2">:</div>
+                    <div class="btn btn-danger pe-none px-2">
+                        <span data-hours=""></span>
+                        <span>15h</span>
+                    </div>
+                    <div class="animate-blinking text-body-tertiary fs-lg fw-medium mx-2">:</div>
+                    <div class="btn btn-danger pe-none px-2">
+                        <span data-minutes=""></span>
+                        <span>14m</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav ms-3">
+                <a class="nav-link animate-underline px-0 py-2" href="shop-catalog-electronics.html">
+                    <span class="animate-target text-nowrap">View all</span>
+                    <i class="ci-chevron-right fs-base ms-1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- PRoducts -->
+        <div class="position-relative mx-md-1">
+
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 pt-4">
+
+                <!-- Item -->
+                <div class="swiper-slide">
+                    <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                                <div class="d-flex flex-column gap-2">
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                        aria-label="Add to Wishlist">
+                                        <i class="ci-heart fs-base animate-target"></i>
+                                    </button>
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                        aria-label="Compare">
+                                        <i class="ci-refresh-cw fs-base animate-target"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                                href="shop-product-general-electronics.html">
+                                <div>
+                                    <img src="./images/blackcolorairpords.png" class="ratio" alt="Wireless Buds">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <div class="d-flex gap-1 fs-xs">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                </div>
+                                <span class="text-body-tertiary fs-xs">(14)</span>
+                            </div>
+                            <h3 class="pb-1 mb-2">
+                                <h6 class="d-block fs-sm fw-medium text-truncate"
+                                    href="shop-product-general-electronics.html">
+                                    <span class="animate-target">Xiaomi Wireless Buds Pro</span>
+                                </h6>
+                            </h3>
+                            <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                                <div class="h5 lh-1 mb-0">$129.99 <del
+                                        class="text-body-tertiary fs-sm fw-normal">$156.00</del></div>
+                                <button type="button"
+                                    class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                    aria-label="Add to Cart">
+                                    <i class="add-to-cart fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Available in stock"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 4px">
+                                <div class="progress-bar bg-danger rounded-pill" style="width: 25%"></div>
+                            </div>
+                            <div class="text-body-secondary fs-sm">Available: <span
+                                    class="text-dark-emphasis fw-medium">112</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                                <div class="d-flex flex-column gap-2">
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                        aria-label="Add to Wishlist">
+                                        <i class="ci-heart fs-base animate-target"></i>
+                                    </button>
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                        aria-label="Compare">
+                                        <i class="ci-refresh-cw fs-base animate-target"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                                href="shop-product-general-electronics.html">
+                                <div>
+                                    <img src="./images/03.png" class="ratio" alt="Smart Watch">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <div class="d-flex gap-1 fs-xs">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <span class="text-body-tertiary fs-xs">(138)</span>
+                            </div>
+                            <h3 class="pb-1 mb-2">
+                                <h6 class="d-block fs-sm fw-medium text-truncate"
+                                    href="shop-product-general-electronics.html">
+                                    <span class="animate-target">Smart Watch Series 7, White</span>
+                                </h6>
+                            </h3>
+                            <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                                <div class="h5 lh-1 mb-0">$429.00 <del
+                                        class="text-body-tertiary fs-sm fw-normal">$486.00</del></div>
+                                <button type="button"
+                                    class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                    aria-label="Add to Cart">
+                                    <i class="add-to-cart fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Available in stock"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 4px">
+                                <div class="progress-bar bg-danger rounded-pill" style="width: 50%"></div>
+                            </div>
+                            <div class="text-body-secondary fs-sm">Available: <span
+                                    class="text-dark-emphasis fw-medium">45</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                                <div class="d-flex flex-column gap-2">
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                        aria-label="Add to Wishlist">
+                                        <i class="ci-heart fs-base animate-target"></i>
+                                    </button>
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                        aria-label="Compare">
+                                        <i class="ci-refresh-cw fs-base animate-target"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                                href="shop-product-general-electronics.html">
+                                <div>
+                                    <img src="./images/DSLR.png" class="ratio" alt="Nikon Camera">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <div class="d-flex gap-1 fs-xs">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                                </div>
+                                <span class="text-body-tertiary fs-xs">(64)</span>
+                            </div>
+                            <h3 class="pb-1 mb-2">
+                                <h6 class="d-block fs-sm fw-medium text-truncate"
+                                    href="shop-product-general-electronics.html">
+                                    <span class="animate-target">VRB01 Camera Nikon Max</span>
+                                </h6>
+                            </h3>
+                            <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                                <div class="h5 lh-1 mb-0">$652.00 <del
+                                        class="text-body-tertiary fs-sm fw-normal">$785.00</del></div>
+                                <button type="button"
+                                    class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                    aria-label="Add to Cart">
+                                    <i class="add-to-cart fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                            <div class="progress mb-2" role="progressbar" aria-label="Available in stock"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 4px">
+                                <div class="progress-bar bg-danger rounded-pill" style="width: 75%"></div>
+                            </div>
+                            <div class="text-body-secondary fs-sm">Available: <span
+                                    class="text-dark-emphasis fw-medium">13</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="product-card animate-underline hover-effect-opacity bg-body rounded">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 end-0 z-2 hover-effect-target opacity-0 mt-3 me-3">
+                                <div class="d-flex flex-column gap-2">
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-pulse d-none d-lg-inline-flex"
+                                        aria-label="Add to Wishlist">
+                                        <i class="ci-heart fs-base animate-target"></i>
+                                    </button>
+                                    <button type="button"
+                                        class="btn btn-icon btn-secondary animate-rotate d-none d-lg-inline-flex"
+                                        aria-label="Compare">
+                                        <i class="ci-refresh-cw fs-base animate-target"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <a class="d-block rounded-top overflow-hidden p-3 p-sm-4"
+                                href="shop-product-general-electronics.html">
+                                <div>
+                                    <img src="./images/Iphone14pro.png" class="ratio" alt="iPhone 14">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-100 min-w-0 px-1 pb-2 px-sm-3 pb-sm-3">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <div class="d-flex gap-1 fs-xs">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star-half text-warning"></i>
+                                    <i class="fa-solid fa-star text-body-tertiary opacity-75"></i>
+                                </div>
+                                <span class="text-body-tertiary fs-xs">(51)</span>
+                            </div>
+                            <h3 class="pb-1 mb-2">
+                                <h6 class="d-block fs-sm fw-medium text-truncate"
+                                    href="shop-product-general-electronics.html">
+                                    <span class="animate-target">Apple iPhone 14 128GB Blue</span>
+                                </h6>
+                            </h3>
+                            <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                                <div class="h5 lh-1 mb-0">$652.00 <del
+                                        class="text-body-tertiary fs-sm fw-normal">$785.00</del></div>
+                                <button type="button"
+                                    class="product-card-button btn btn-icon btn-secondary animate-slide-end ms-2"
+                                    aria-label="Add to Cart">
+                                    <i class="add-to-cart fas fa-shopping-cart"></i>
+                                </button>
+                            </div>
+                            <div class="progress  mb-2" role="progressbar" aria-label="Available in stock"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 4px">
+                                <div class="progress-bar bg-danger  rounded-pill w-25"></div>
+                            </div>
+                            <div class="text-body-secondary fs-sm">Available: <span
+                                    class="text-dark-emphasis fw-medium">7</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+    <!-- Brands -->
+      <!-- Brands -->
+      <section class="container pt-4 pt-md-5 pb-5 mt-sm-2 mb-2 mb-sm-3 mb-md-4 mb-lg-5">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 g-md-4 g-lg-3 g-xl-4">
+          <div class="col">
+            <a class="btn btn-outline-dark  rounded-4 text-center" href="shop-catalog-electronics.html">
+              <img src="./images/Apple(light).png" class="w-100 h-100 d-block-dark" alt="Apple">
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-outline-dark rounded-4" href="shop-catalog-electronics.html">
+              <img src="./images/Motorola(light).png" class="w-100 h-100 d-block-dark" alt="Motorola">
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-outline-dark rounded-4" href="shop-catalog-electronics.html">
+              <img src="./images/Canon(light).png" class="w-100 h-100 d-block-dark" alt="Canon">
+              <!-- <img src="assets/img/shop/electronics/brands/canon-dark-mode.svg" class="d-none d-block-dark" alt="Apple"> -->
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-outline-dark rounded-4" href="shop-catalog-electronics.html">
+              <img src="./images/Samsung(light).png" class="w-100 h-100 wd-block-dark" alt="Samsung">
+              <!-- <img src="assets/img/shop/electronics/brands/samsung-dark-mode.svg" class="d-none d-block-dark" alt="Apple"> -->
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-outline-dark rounded-4" href="shop-catalog-electronics.html">
+              <img src="./images/Sony(light).png" class="w-100 h-100 d-block-dark" alt="Sony">
+              <!-- <img src="assets/img/shop/electronics/brands/sony-dark-mode.svg" class="d-none d-block-dark" alt="Apple"> -->
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn btn-outline-secondary w-100 h-100 rounded-4 p-3" href="shop-categories-electronics.html">
+              All brands
+              <i class="fa-solid fa-circle-plus mt-3"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
