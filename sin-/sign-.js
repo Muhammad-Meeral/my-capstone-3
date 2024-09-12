@@ -11,6 +11,6 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
        localStorage.setItem('Password',userPassword)
 
        alert("Registration is completed!")
-       window.location.href = "/pages/login.html" 
+       window.location.href = "" 
     }
 });

@@ -14,5 +14,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event){
     } else{
         alert("Wrong password!");
     }
-    
+alert('type  confirm password');
 })
